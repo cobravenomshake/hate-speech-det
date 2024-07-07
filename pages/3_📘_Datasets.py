@@ -44,7 +44,7 @@ data_choice = st.selectbox("Dataset", all_Datasets)
 st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("---")
 if data_choice == "Cyber Bullying tweets":
-    df_cyber = pd.read_csv("/home/csd-common/Downloads/cyber/SecureTweet-main/Dataset/cyber_tweets.csv")
+    df_cyber = pd.read_csv("Dataset/cyber_tweets.csv")
     st.markdown("<h1 style='text-align: center; font-size: 18px; color: #0080FF;'>Dataset Information</h1>", unsafe_allow_html=True)
     if st.checkbox("Dataset General Information"):
         
