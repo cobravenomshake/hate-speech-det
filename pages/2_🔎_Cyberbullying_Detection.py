@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
-from scikit-learn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from scikit-learn.naive_bayes import MultinomialNB
-from scikit-learn.svm import SVC
-from scikit-learn.metrics import classification_report
-from scikit-learn.model_selection import train_test_split
-from scikit-learn.pipeline import Pipeline
-from scikit-learn.datasets import fetch_20newsgroups
+from scikit-learn import CountVectorizer, TfidfVectorizer
+from scikit-learn import MultinomialNB
+from scikit-learn import SVC
+from scikit-learn import classification_report
+from scikit-learn import train_test_split
+from scikit-learn import Pipeline
+from scikit-learn import fetch_20newsgroups
 from PIL import Image
 
 hide_menu = """
