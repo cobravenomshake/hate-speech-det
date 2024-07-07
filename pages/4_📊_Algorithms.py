@@ -32,7 +32,7 @@ all_Datasets = ["Select a Dataset","Cyber Bullying Tweets"]
 data_choice = st.selectbox("Dataset", all_Datasets)
 all_Vectorizers = ["Select a Vectorizer", "TF-IDF", "CountVectorizer"]
 vect_choice = st.selectbox("Vectorizer", all_Vectorizers)
-all_ML_models = ["Select a Machine Learning Algorithm", "Naive Bayes", "Support Vector Machine"]
+all_ML_models = ["Select a Machine Learning Algorithm", "Naive Bayes", "Support Vector Machine", "BERT"]
 model_choice = st.selectbox("Machine Learning Algorithm", all_ML_models)
 st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("---")
