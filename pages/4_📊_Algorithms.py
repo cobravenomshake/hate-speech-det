@@ -75,4 +75,16 @@ else:
                 st.markdown("<br>", unsafe_allow_html=True)
                 st.subheader("Evaluation Metrics")
                 st.success(":green[Accuracy: **_90.28%_**]")
+
+        if vect_choice == "TF-IDF":
+            if  model_choice == "BERT":
+                st.markdown("<br>", unsafe_allow_html=True)
+                st.subheader("Evaluation Metrics")
+                st.success(":green[Accuracy: **_89.73%_**]")
+                
+        elif vect_choice == "CountVectorizer":
+            if  model_choice == "BERT":
+                st.markdown("<br>", unsafe_allow_html=True)
+                st.subheader("Evaluation Metrics")
+                st.success(":green[Accuracy: **_88.35%_**]")
             
