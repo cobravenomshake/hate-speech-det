@@ -58,7 +58,7 @@ if uploaded_file is not None:
 
     # Train Naive Bayes or SVM
     st.header("Train The Model")
-    model_choice = st.selectbox("Select Model", ["Select a Model", "Naive Bayes", "Support Vector Machine"])
+    model_choice = st.selectbox("Select Model", ["Select a Model", "Naive Bayes", "Support Vector Machine", "BERT"])
 
     if model_choice == "Naive Bayes":
         model = MultinomialNB()
